@@ -2,12 +2,12 @@ import { useState } from "react";
 import { Helmet } from "react-helmet-async";
 
 const CDN = {
-  heroFront: "https://cdn.shopify.com/s/files/1/0462/8591/4267/files/crc-hero-front.png?v=1771408030",
-  heroAngle: "https://cdn.shopify.com/s/files/1/0462/8591/4267/files/crc-hero-angle.png?v=1771408032",
-  lifestyleHands: "https://cdn.shopify.com/s/files/1/0462/8591/4267/files/crc-lifestyle-hands.png?v=1771408035",
-  textureSwatch: "https://cdn.shopify.com/s/files/1/0462/8591/4267/files/crc-texture-swatch.png?v=1771408037",
-  bundle3jars: "https://cdn.shopify.com/s/files/1/0462/8591/4267/files/crc-bundle-3jars.png?v=1771408039",
-  adOverlay: "https://cdn.shopify.com/s/files/1/0462/8591/4267/files/crc-ad-overlay.png?v=1771408041",
+  heroFront: "https://cdn.shopify.com/s/files/1/0462/8591/4267/files/e980edd6effce50de114814e75755ebf.png?v=1771556360",
+  heroAngle: "https://cdn.shopify.com/s/files/1/0462/8591/4267/files/52ea4e9ebad985cf3fac004bc555971b.png?v=1771556362",
+  lifestyleHands: "https://cdn.shopify.com/s/files/1/0462/8591/4267/files/ac8fcd03835d23caf6f4712f5ee4d4fa.png?v=1771556364",
+  textureSwatch: "https://cdn.shopify.com/s/files/1/0462/8591/4267/files/ac8fcd03835d23caf6f4712f5ee4d4fa.png?v=1771556364",
+  bundle3jars: "https://cdn.shopify.com/s/files/1/0462/8591/4267/files/523c8515e9c25a11c3a3c4a219d5cf2f.png?v=1771556366",
+  adOverlay: "https://cdn.shopify.com/s/files/1/0462/8591/4267/files/75fc0c09d403b92cd2b5663ebb73ac2f.png?v=1771556368",
 };
 
 const CHECKOUT = {
