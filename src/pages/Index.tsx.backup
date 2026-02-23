@@ -298,11 +298,11 @@ const Index = () => {
             <div style={{ background: "#fff", borderRadius: "24px", padding: "36px 28px", boxShadow: "0 4px 20px rgba(0,0,0,0.07)", border: "1px solid rgba(196,149,106,0.2)" }}>
               <h3 style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 800, fontSize: "22px", color: COLORS.headline, marginBottom: "8px" }}>Try It — 1 Jar</h3>
               <div style={{ display: "flex", alignItems: "baseline", gap: "12px", marginBottom: "8px" }}>
-                <span style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 800, fontSize: "32px", color: COLORS.cta }}>$37.50</span>
+                <span style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 800, fontSize: "32px", color: COLORS.cta }}>$59.25</span>
                 <span style={{ textDecoration: "line-through", color: "#9CA3AF", fontSize: "18px" }}>$99</span>
                 <span style={{ background: COLORS.green, color: "#fff", fontSize: "12px", fontWeight: 700, padding: "2px 8px", borderRadius: "9999px" }}>25% OFF</span>
               </div>
-              <p style={{ fontSize: "13px", color: COLORS.accent, marginBottom: "4px" }}>Regular: ~~$50.00~~ → <strong><strong>Use code SECRET25 at checkout to see final price</strong></strong></p>
+              <p style={{ fontSize: "13px", color: COLORS.accent, marginBottom: "4px" }}>Regular: $79 → <strong>$59.25 with SECRET25</strong></p>
               <p style={{ fontSize: "14px", lineHeight: 1.7, color: COLORS.body, margin: "16px 0 24px" }}>
                 One jar of Centella Restore Cream™ (45-60 day supply). The perfect entry point to experience the first two phases of the Centelloid Renewal Cascade.
               </p>
@@ -317,11 +317,11 @@ const Index = () => {
               </div>
               <h3 style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 800, fontSize: "22px", color: COLORS.headline, marginBottom: "8px", marginTop: "8px" }}>Best Seller — 2 Jars</h3>
               <div style={{ display: "flex", alignItems: "baseline", gap: "12px", marginBottom: "8px" }}>
-                <span style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 800, fontSize: "32px", color: COLORS.cta }}>$67.50</span>
+                <span style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 800, fontSize: "32px", color: COLORS.cta }}>$111.75</span>
                 <span style={{ textDecoration: "line-through", color: "#9CA3AF", fontSize: "18px" }}>$198</span>
                 <span style={{ background: COLORS.green, color: "#fff", fontSize: "12px", fontWeight: 700, padding: "2px 8px", borderRadius: "9999px" }}>25% OFF</span>
               </div>
-              <p style={{ fontSize: "13px", color: COLORS.accent, marginBottom: "4px" }}>Regular: ~~$90.00~~ → <strong><strong>Use code SECRET25 at checkout to see final price</strong></strong></p>
+              <p style={{ fontSize: "13px", color: COLORS.accent, marginBottom: "4px" }}>Regular: $149 → <strong>$111.75 with SECRET25</strong></p>
               <p style={{ fontSize: "14px", lineHeight: 1.7, color: COLORS.body, margin: "16px 0 24px" }}>
                 Two jars (90-120 day supply). Most women notice real structural change at weeks 6-8 — this gives you the full protocol with room to feel the results settle into your skin.
               </p>
@@ -337,11 +337,11 @@ const Index = () => {
             <div style={{ background: "#fff", borderRadius: "24px", padding: "36px 28px", boxShadow: "0 4px 20px rgba(0,0,0,0.07)", border: "1px solid rgba(196,149,106,0.2)" }}>
               <h3 style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 800, fontSize: "22px", color: COLORS.headline, marginBottom: "8px" }}>Best Value — 3 Jars</h3>
               <div style={{ display: "flex", alignItems: "baseline", gap: "12px", marginBottom: "8px" }}>
-                <span style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 800, fontSize: "32px", color: COLORS.cta }}>$93.75</span>
+                <span style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 800, fontSize: "32px", color: COLORS.cta }}>$147.75</span>
                 <span style={{ textDecoration: "line-through", color: "#9CA3AF", fontSize: "18px" }}>$297</span>
                 <span style={{ background: COLORS.green, color: "#fff", fontSize: "12px", fontWeight: 700, padding: "2px 8px", borderRadius: "9999px" }}>25% OFF</span>
               </div>
-              <p style={{ fontSize: "13px", color: COLORS.accent, marginBottom: "4px" }}>Regular: ~~$125.00~~ → <strong><strong>Use code SECRET25 at checkout to see final price</strong></strong></p>
+              <p style={{ fontSize: "13px", color: COLORS.accent, marginBottom: "4px" }}>Regular: $197 → <strong>$147.75 with SECRET25</strong></p>
               <p style={{ fontSize: "14px", lineHeight: 1.7, color: COLORS.body, margin: "16px 0 24px" }}>
                 Three jars (135-180 day supply). The Centelloid Renewal Cascade works deepest at the 8-12 week mark — 3 jars gives you the complete protocol at the lowest price-per-jar.
               </p>
@@ -450,9 +450,9 @@ const Index = () => {
               <DiscountBadge />
             </div>
             <div style={{ display: "flex", gap: "16px", justifyContent: "center", flexWrap: "wrap", marginBottom: "20px" }}>
-              <a href={CHECKOUT.jar1} style={{ background: "rgba(255,255,255,0.15)", color: "#fff", fontFamily: "'DM Sans', sans-serif", fontWeight: 600, padding: "12px 24px", borderRadius: "9999px", textDecoration: "none", fontSize: "15px" }}>1 Jar — $37.50</a>
-              <a href={CHECKOUT.jar2} style={{ background: COLORS.cta, color: "#fff", fontFamily: "'DM Sans', sans-serif", fontWeight: 700, padding: "16px 36px", borderRadius: "9999px", textDecoration: "none", fontSize: "17px" }}>2 Jars — $67.50 (Best Seller)</a>
-              <a href={CHECKOUT.jar3} style={{ background: "rgba(255,255,255,0.15)", color: "#fff", fontFamily: "'DM Sans', sans-serif", fontWeight: 600, padding: "12px 24px", borderRadius: "9999px", textDecoration: "none", fontSize: "15px" }}>3 Jars — $93.75</a>
+              <a href={CHECKOUT.jar1} style={{ background: "rgba(255,255,255,0.15)", color: "#fff", fontFamily: "'DM Sans', sans-serif", fontWeight: 600, padding: "12px 24px", borderRadius: "9999px", textDecoration: "none", fontSize: "15px" }}>1 Jar — $59.25</a>
+              <a href={CHECKOUT.jar2} style={{ background: COLORS.cta, color: "#fff", fontFamily: "'DM Sans', sans-serif", fontWeight: 700, padding: "16px 36px", borderRadius: "9999px", textDecoration: "none", fontSize: "17px" }}>2 Jars — $111.75 (Best Seller)</a>
+              <a href={CHECKOUT.jar3} style={{ background: "rgba(255,255,255,0.15)", color: "#fff", fontFamily: "'DM Sans', sans-serif", fontWeight: 600, padding: "12px 24px", borderRadius: "9999px", textDecoration: "none", fontSize: "15px" }}>3 Jars — $147.75</a>
             </div>
             <p style={{ opacity: 0.7, fontSize: "13px" }}>
               60-Day Money-Back Guarantee · Free gifts with every order · Use code SECRET25 at checkout
